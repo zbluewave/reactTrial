@@ -1,0 +1,73 @@
+.QueueReview {
+    &__container {
+        height: 80vh;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row-reverse;
+
+
+        &__container {
+            border: 1px solid $blue-primary;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            width: 96%;
+        }
+
+        &__entity {
+            &__row {
+                color: black;
+                display: grid;
+                grid-template-columns: 75px 75px 75px 100px auto;
+                background-color: $gray-bg1;
+            }
+        }
+
+        &__masterList {
+            &__row {
+                color: black;
+                display: grid;
+                grid-template-columns: 100px auto 50px 50px 50px;
+                background-color: $gray-bg1;
+            }
+        }
+
+        &__label {
+            text-transform: capitalize !important;
+        }
+
+        &__info {
+            display: inline-block;
+            text-align: center;
+        }
+
+        &__name {
+            color: black;
+            background-color: $gray-stroke;
+            padding: 4px 0;
+            font-size: $font-size-h3;
+        }
+
+        &__desc {
+            overflow: hidden;
+            font-size: $font-size-small;
+        }
+
+        &__child_item {
+            width: 90%;
+        }
+
+        &__button {
+            padding: 2px;
+            border-radius: 0 5px 5px 0;
+            background-color: $blue-primary;
+            color: white;
+            text-align: center;
+
+            &__red {
+                background-color: $red;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.PageHeader {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    background-color: $blue-primary;
+
+    &__title {
+        margin-left: 30px;
+        flex: auto;
+        display: flex;
+        font-size: $font-size-h1;
+        color: white;
+    }
+
+    &__userInfo {
+        flex: auto;
+        display: flex;
+        font-size: $font-size-h3;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        & > i {
+            margin-right: 12px;
+        }
+    }
+}

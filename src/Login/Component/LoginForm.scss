@@ -1,0 +1,40 @@
+.LoginForm {
+
+    &__container {
+        margin: auto;
+        height: 75%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        padding: 15px 15px;
+        text-align: center;
+        font-size: $font-size-h1;
+        font-weight: bold;
+        color: $blue-primary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & > div {
+            margin-left: 12px;
+        }
+    }
+
+    &__button {
+        width: 100%;
+        padding: 9px;
+        border-radius: 4px;
+        background-color: $blue-primary;
+        color: white;
+        font-size: $font-size-h3;
+        
+        &:hover {
+            background-color: rgba($blue-primary, 0.9);
+            transition: background-color .5s;
+            color: white;
+        }
+    }
+}

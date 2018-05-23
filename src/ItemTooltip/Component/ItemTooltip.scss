@@ -1,0 +1,60 @@
+
+.ItemTooltip {
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 9px 9px 9px;
+        justify-content: space-between;
+
+        & > div {
+            flex: auto;
+        }
+
+        &__item {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 15px;
+        }
+    }
+
+    &__match {
+        font-size: $font-size-h3;
+        margin-top: 6px;
+        text-align: center;
+        border: 1px solid $blue-primary;
+        border-radius: 6px;
+        background-color: $blue-primary;
+        color: white;
+    }
+
+    &__link {
+        @extend .ItemTooltip__match;
+        background-color: black;
+        border: 1px solid black;
+    }
+
+    &__item {
+
+        &__name {
+            font-weight: bold;
+            font-size: $font-size-h3;
+        }
+
+        &__type {
+            text-transform: capitalize;
+        }
+
+        &__image {
+            height: 200px;
+        }
+
+        &__path {
+            overflow: hidden;
+            font-size: 11px;
+            margin-left: 1px;
+        }
+
+    }
+
+}

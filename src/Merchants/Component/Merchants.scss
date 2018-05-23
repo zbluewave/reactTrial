@@ -1,0 +1,13 @@
+.Merchants {
+
+    &__results {
+        color: black;
+    }
+
+    &__title {
+        padding: 15px 15px;
+        text-align: center;
+        font-size: $font-size-h1;
+        color: $blue-primary;
+    }
+}

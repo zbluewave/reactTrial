@@ -1,0 +1,103 @@
+{
+  "name": "Delivery-Internal-Tools",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7.0.0-beta.34",
+    "@babel/preset-react": "7.0.0-beta.34",
+    "autoprefixer": "7.1.2",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.1",
+    "babel-preset-react-app": "3.0.3",
+    "babel-runtime": "6.26.0",
+    "case-sensitive-paths-webpack-plugin": "2.1.1",
+    "chalk": "1.1.3",
+    "css-loader": "0.28.4",
+    "dotenv": "4.0.0",
+    "eslint-config-react-app": "2.0.1",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "0.11.2",
+    "fs-extra": "3.0.1",
+    "history": "4.7.2",
+    "html-webpack-plugin": "2.29.0",
+    "jest-cli": "21.2.1",
+    "lodash": "4.17.4",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "4.1.1",
+    "object-assign": "4.1.1",
+    "postcss-flexbugs-fixes": "3.2.0",
+    "postcss-loader": "2.0.6",
+    "promise": "8.0.1",
+    "react": "16.2.0",
+    "react-autobind": "1.0.6",
+    "react-dev-utils": "4.1.0",
+    "react-dnd": "2.5.4",
+    "react-dnd-html5-backend": "2.5.4",
+    "react-dom": "16.2.0",
+    "react-portal-tooltip": "2.1.2",
+    "react-redux": "5.0.6",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-router-redux": "5.0.0-alpha.8",
+    "react-virtualized": "9.12.0",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.6",
+    "redux-saga": "0.16.0",
+    "redux-thunk": "2.2.0",
+    "reselect": "3.0.1",
+    "semantic-ui-react": "0.75.1",
+    "style-loader": "0.18.2",
+    "sw-precache-webpack-plugin": "0.11.4",
+    "url-loader": "0.5.9",
+    "webpack": "3.5.1",
+    "webpack-dev-server": "2.8.2",
+    "webpack-manifest-plugin": "1.2.1",
+    "whatwg-fetch": "2.0.3"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/styles/index.scss src/styles/styles.css --output-style compressed",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/styles/index.scss  src/styles/styles.css --watch --recursive --output-style compressed",
+    "start-js": "node scripts/start.js",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "node scripts/build.js",
+    "build": "npm-run-all build-css build-js",
+    "test": "jest --env=jsdom --verbose"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-0": "6.24.1",
+    "enzyme": "3.2.0",
+    "enzyme-adapter-react-16": "1.1.0",
+    "eslint": "4.10.0",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-react": "7.4.0",
+    "jest": "21.2.1",
+    "nightwatch": "0.9.16",
+    "react-dnd-test-backend": "2.5.4",
+    "react-test-renderer": "16.1.1",
+    "redux-mock-store": "1.3.0",
+    "webpack-visualizer-plugin": "0.1.11"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/test config/testShim.js",
+      "<rootDir>/test config/setupTests.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/src/frontend-standard-library/*"
+    ],
+    "moduleNameMapper": {
+      "^FSL[/](.+)": "<rootDir>/src/frontend-standard-library/$1",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test config/assetMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/test config/assetMock.js"
+    }
+  }
+}

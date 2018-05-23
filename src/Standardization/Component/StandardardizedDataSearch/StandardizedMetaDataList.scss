@@ -1,0 +1,21 @@
+.StandardizedMetaDataList {
+    &__container {
+        height: 80vh;
+        overflow-y: auto;
+    }
+
+    &__table {
+        tbody {
+            tr.selected {
+                color: $white;
+                background-color: $blue-primary;
+            }
+
+            tr:hover{
+                color: $white;
+                background-color: $blue-secondary;
+                cursor: pointer;
+            }
+        }
+    }
+}

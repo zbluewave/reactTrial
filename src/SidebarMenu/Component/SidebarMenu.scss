@@ -1,0 +1,12 @@
+.SidebarMenu {
+
+    &__logo {
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px #fff;
+        
+        &__container {
+            margin-top: 20px;
+            padding-bottom: 30px;
+        }
+    }
+}

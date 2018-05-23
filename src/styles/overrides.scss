@@ -1,0 +1,123 @@
+body, html {
+    width: 100%;
+    font-family: $main-font-family;
+}
+  
+button {
+    cursor: pointer;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer:focus,
+.ReactVirtualized__Grid.ReactVirtualized__List:focus {
+    outline: none;
+}
+
+// SemanticUI overrides 
+a {
+    color: $blue-primary;
+}
+
+.pushable > .pusher {
+    height: 100%;
+}
+
+.ui.form input[type=text],
+.ui.form input[type=text]:focus, 
+.ui.form input[type=email],
+.ui.form input[type=email]:focus,
+.ui.form input[type=password], 
+.ui.form input[type=password]:focus {
+    color: $blue-primary;
+}
+
+i.inverted.circular.blue.icon {
+    background-color: $blue-primary !important;
+}
+
+.ui.menu {
+    font-family: $main-font-family;
+    font-size: $font-size-h3;
+    &> .item {
+        text-align: left;
+    }
+}
+
+.ui.vertical.menu {
+    background-color: $blue-primary;
+}
+
+.ui.blue.label {
+    background-color: $blue-primary !important;
+}
+
+.ui.menu a.item,
+.item > a {
+    color: white;
+    font-size: $font-size-h3;
+    
+    &:hover {
+        color: white;
+    }
+}
+
+.ui.menu.dropdown.item,
+.ui.active.visible.item.dropown,
+.ui.item.dropdown,
+.ui.item.dropdown.item,
+.ui.menu.active.item, 
+.ui.vertical.menu .active.item {
+    color: white;
+    font-size: $font-size-h4;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: white;
+    }
+}
+
+.ui.pointing.two.item.menu {
+    & > .active.item {
+        color: $blue-primary;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    & > .item {
+        color: black;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.content.active {
+    color: white;
+}
+
+.ui.accordion .title:not(.ui) {
+    color: white;
+    font-family: $main-font-family;
+}
+
+.ui.menu .dropdown.item .menu {
+    &> .item {
+        color: white !important;
+        &:hover {
+            color: white !important;
+        }
+    }
+    background: $blue-primary;
+}
+
+.ui.sidebar {
+
+    &.menu .item {
+        background: none;
+    }
+    overflow: visible !important;
+}
+
+.ui.corner.label {
+    color: $blue-primary !important;
+}

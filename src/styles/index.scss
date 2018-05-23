@@ -1,0 +1,20 @@
+@import "../frontend-standard-library/_common/scss/main";
+@import "../frontend-standard-library/modules-react/Base/Component/PaginationWidget/PaginationWidget.scss";
+@import "./icons";
+@import "./overrides";
+
+@import "../App/Component/App.scss";
+@import "../ContentWrapper/Component/ContentWrapper.scss";
+@import "../NoRouteFound/Component/NoRouteFound.scss";
+@import "../SidebarMenu/Component/SidebarMenu.scss";
+@import "../Login/Component/LoginForm.scss";
+@import "../Merchants/Component/Merchants.scss";
+@import "../Search/Component/Search.scss";
+@import "../MerchantItems/Component/MerchantItems.scss";
+@import "../MerchantItems/Component/MerchantItemsView.scss";
+@import "../Menu/Component/MenuItem.scss";
+@import "../Menu/Component/MenuList.scss";
+@import "../MerchantItems/Component/Item.scss";
+@import "../PageHeader/Component/PageHeader.scss";
+@import "../ItemTooltip/Component/ItemTooltip.scss";
+@import "../Standardization/Component/StandardizedMappingTool";

@@ -1,0 +1,29 @@
+.EntityDataSearch {
+    &__container {
+
+    }
+
+    &__middle__column {
+        padding-right: 5px;
+    }
+
+    &__keywords {
+        &__row {
+            padding: 3px;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    }
+
+    &__options {
+        &__row {
+            padding: 3px;
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% auto;
+        }
+        &__buttons {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    }
+}

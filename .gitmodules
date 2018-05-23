@@ -1,0 +1,4 @@
+[submodule "src/frontend-standard-library"]
+	path = src/frontend-standard-library
+	url = git@github.com:Deliverydotcom/frontend-standard-library.git
+	ignore = dirty

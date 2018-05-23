@@ -1,0 +1,82 @@
+.Item  {
+
+    &__container {
+        display: grid;
+        grid-template-columns: 40px 100px auto 75px 110px;
+    }
+
+    &__row {
+        border: 1px solid rgba(34,36,38,.15);
+        padding: 10px 18px;
+
+        &__matched {
+            @extend .Item__row;
+            background-color: $blue-primary !important;
+            color: white;
+
+            &__clear {
+                @extend .Item__filter;
+                border: 1px solid white;
+                color: $blue-primary;
+
+                &:hover {
+                    border: 1px solid white;
+                }
+            }
+        }
+
+        &__linked {
+            @extend .Item__row;
+            padding: 10px;
+            border-right: 8px solid black;
+            border-left: 8px solid black;
+        }
+
+        &__noResults {
+            display: flex;
+            border: 1px solid rgba(34,36,38,.15);
+            padding: 10px;
+            justify-content: center;
+            font-weight: bold;
+        }
+    }
+
+    &__filter {
+        width: 100px;
+        border: 1px solid $blue-primary;
+
+        &:disabled {
+            border: 1px solid $gray-stroke;
+
+            &:hover {
+                background-color: $gray-stroke;
+                transition: background-color .5s;
+            }
+        }
+
+        &:hover { 
+            background-color: $blue-primary;
+            transition: background-color .5s;
+            color: white;
+        }
+
+        &__clear {
+            @extend .Item__filter;
+            background-color: $blue-primary;
+            transition: background-color .5s;
+            color: white;
+
+        }
+    }
+
+    &__labelName {
+        & > .ui.label {
+            margin-right: 6px;
+        }
+    }
+
+    &__price {
+        flex: auto;
+        margin-right: 6px;
+    }
+}

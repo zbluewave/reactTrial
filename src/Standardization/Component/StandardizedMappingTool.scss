@@ -1,0 +1,25 @@
+@import "./StandardardizedDataSearch/StandardizedMetaDataList";
+@import "./QueueReview/QueueReviewTool";
+@import "./EntityDataSearch/EntityDataSearch";
+@import "./EntityDataSearch/EntityList";
+
+.StandardizedMappingTool {
+    &__container {
+        height: 98%;
+    }
+
+    &__table {
+        tbody {
+            tr.selected {
+                color: $white;
+                background-color: $blue-primary;
+            }
+
+            tr:hover{
+                color: $white;
+                background-color: $blue-secondary;
+                cursor: pointer;
+            }
+        }
+    }
+}

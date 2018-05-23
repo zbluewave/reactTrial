@@ -1,0 +1,27 @@
+.Search {
+
+    &__container {
+        display: flex;
+    }
+
+    &__input {
+        flex: auto;
+        color: $blue-primary;
+        border-radius: 5px 0 0 5px !important;
+    }
+
+    &__clear {
+        flex: auto;
+        padding: 0 20px 0 20px;
+        border-radius: 0 5px 5px 0;
+        background-color: $blue-primary;
+        color: white;
+        
+        &:hover {
+            background-color: white;
+            color: $blue-primary;
+            transition: background-color .5s;
+            transform: none;
+        }
+    }
+}

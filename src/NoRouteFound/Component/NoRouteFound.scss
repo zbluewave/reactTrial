@@ -1,0 +1,6 @@
+.NoRouteFound {
+    
+    &__container {
+        @extend .LoginForm__container;
+    }
+}

@@ -1,0 +1,27 @@
+.MerchantItems {
+
+    &__container {
+        padding: 15px 15px;
+        text-align: center;
+        font-size: $font-size-h1;
+        color: $blue-primary;
+        margin: 15px 30px;
+        height: 80vh;
+    }
+    
+    &__back {
+       float: left;
+    }
+
+    &__help {
+        float: right;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 9px 9px 9px;
+            justify-content: space-between;
+            font-size: $font-size-main;
+        }
+    }
+}

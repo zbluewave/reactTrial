@@ -1,0 +1,594 @@
+@font-face {
+  font-family: 'dcom-ico-font';
+  src:
+    url('/styles/fonts/dcom-ico-font.ttf?h78w10') format('truetype'),
+    url('/styles/fonts/dcom-ico-font.woff?h78w10') format('woff'),
+    url('/styles/fonts/dcom-ico-font.svg?h78w10#dcom-ico-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dcom-ico-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+	content: "\e926";
+}
+.icon-giftcard:before {
+	content: "\e924";
+}
+.icon-dot-logo:before {
+	content: "\e925";
+}
+.icon-gifts:before {
+	content: "\e923";
+}
+.icon-View-All-Icon:before {
+	content: "\e91e";
+}
+.icon-recurring-order:before {
+	content: "\e91a";
+}
+.icon-office:before {
+	content: "\e91b";
+}
+.icon-home:before {
+	content: "\e91c";
+}
+.icon-castle:before {
+	content: "\e91d";
+}
+.icon-your-orders:before {
+	content: "\e919";
+}
+.icon-cc-inverse:before {
+	content: "\e917";
+}
+.icon-your-account:before {
+	content: "\e918";
+}
+.icon-tax:before {
+	content: "\e913";
+}
+.icon-flag-star:before {
+	content: "\e914";
+}
+.icon-merchant-arrives:before {
+	content: "\e915";
+}
+.icon-menu-burger:before {
+	content: "\e916";
+}
+.icon-featured:before {
+	content: "\e912";
+}
+.icon-geolocate:before {
+	content: "\e911";
+}
+.icon-chicken:before {
+	content: "\e90b";
+}
+.icon-fish:before {
+	content: "\e90c";
+}
+.icon-meat:before {
+	content: "\e90d";
+}
+.icon-pork:before {
+	content: "\e90e";
+}
+.icon-shellfish:before {
+	content: "\e90f";
+}
+.icon-veggies:before {
+	content: "\e910";
+}
+.icon-delivery-points-multiplier:before {
+	content: "\e90a";
+}
+.icon-camera-simple:before {
+	content: "\e907";
+}
+.icon-bottle:before {
+	content: "\e906";
+}
+.icon-grape:before {
+	content: "\e904";
+}
+.icon-flag:before {
+	content: "\e905";
+}
+.icon-drop:before {
+	content: "\e908";
+}
+.icon-badge:before {
+	content: "\e909";
+}
+.icon-delete:before {
+	content: "\e900";
+}
+.icon-delivery-fee:before {
+	content: "\e901";
+}
+.icon-discount-tag:before {
+	content: "\e902";
+}
+.icon-edit:before {
+	content: "\e903";
+}
+.icon-logistics-logo:before {
+	content: "\e800";
+}
+.icon-magnifying-glass:before {
+	content: "\e696";
+}
+.icon-success:before {
+	content: "\e695";
+}
+.icon-gangnam-style:before {
+	content: "\e694";
+}
+.icon-concur-logo:before {
+	content: "\e691";
+}
+.icon-link:before {
+	content: "\e692";
+}
+.icon-concur-logo-with-brand:before {
+	content: "\e693";
+}
+.icon-people:before {
+	content: "\e68b";
+}
+.icon-hand-shake:before {
+	content: "\e68c";
+}
+.icon-megaphone:before {
+	content: "\e68d";
+}
+.icon-free-tag:before {
+	content: "\e68e";
+}
+.icon-computer-mobile:before {
+	content: "\e68f";
+}
+.icon-graph:before {
+	content: "\e690";
+}
+.icon-share:before {
+	content: "\e67f";
+}
+.icon-search-document:before {
+	content: "\e680";
+}
+.icon-pinterest:before {
+	content: "\e681";
+}
+.icon-laundry-circle:before {
+	content: "\e682";
+}
+.icon-check-list:before {
+	content: "\e683";
+}
+.icon-groceries-circle:before {
+	content: "\e684";
+}
+.icon-food-circle:before {
+	content: "\e685";
+}
+.icon-eco:before {
+	content: "\e686";
+}
+.icon-price-tag:before {
+	content: "\e687";
+}
+.icon-camera:before {
+	content: "\e689";
+}
+.icon-alcohol-circle:before {
+	content: "\e68a";
+}
+.icon-hat:before {
+	content: "\e67e";
+}
+.icon-confirm:before {
+	content: "\e67c";
+}
+.icon-laundry-baskets:before {
+	content: "\e67d";
+}
+.icon-eye:before {
+	content: "\e67b";
+}
+.icon-calendar:before {
+	content: "\e676";
+}
+.icon-cc:before {
+	content: "\e677";
+}
+.icon-ddot:before {
+	content: "\e678";
+}
+.icon-logout:before {
+	content: "\e679";
+}
+.icon-taf:before {
+	content: "\e67a";
+}
+.icon-about-users:before {
+	content: "\e673";
+}
+.icon-merchant-store-front:before {
+	content: "\e674";
+}
+.icon-us-map:before {
+	content: "\e675";
+}
+.icon-storefront-logo:before {
+	content: "\e671";
+}
+.icon-storefront-logo-by-delivery:before {
+	content: "\e672";
+}
+.icon-laundry-thimble:before {
+	content: "\e670";
+}
+.icon-wayway-pictures:before {
+	content: "\e66c";
+}
+.icon-wayway-instagram-logo:before {
+	content: "\e66d";
+}
+.icon-wayway-instagram-text-logo:before {
+	content: "\e66e";
+}
+.icon-ooc-help:before {
+	content: "\e668";
+}
+.icon-ooc-open-close:before {
+	content: "\e669";
+}
+.icon-ooc-settings:before {
+	content: "\e66a";
+}
+.icon-ooc-sound:before {
+	content: "\e66b";
+}
+.icon-laundry-blanket:before {
+	content: "\e654";
+}
+.icon-laundry-blouse-top:before {
+	content: "\e655";
+}
+.icon-laundry-button:before {
+	content: "\e656";
+}
+.icon-laundry-coat:before {
+	content: "\e657";
+}
+.icon-laundry-comforter:before {
+	content: "\e658";
+}
+.icon-laundry-dress:before {
+	content: "\e659";
+}
+.icon-laundry-help:before {
+	content: "\e65a";
+}
+.icon-laundry-jacket:before {
+	content: "\e65b";
+}
+.icon-laundry-pants:before {
+	content: "\e65c";
+}
+.icon-laundry-patch:before {
+	content: "\e65d";
+}
+.icon-laundry-pillow:before {
+	content: "\e65e";
+}
+.icon-laundry-scarf:before {
+	content: "\e65f";
+}
+.icon-laundry-shirt:before {
+	content: "\e660";
+}
+.icon-laundry-shorts:before {
+	content: "\e661";
+}
+.icon-laundry-skirt:before {
+	content: "\e662";
+}
+.icon-laundry-suit:before {
+	content: "\e663";
+}
+.icon-laundry-sweater:before {
+	content: "\e664";
+}
+.icon-laundry-tag:before {
+	content: "\e665";
+}
+.icon-laundry-tie:before {
+	content: "\e666";
+}
+.icon-laundry-zipper:before {
+	content: "\e667";
+}
+.icon-flag-left:before {
+	content: "\e651";
+}
+.icon-flag-right:before {
+	content: "\e652";
+}
+.icon-x-close-field:before {
+	content: "\e653";
+}
+.icon-location-arrow:before {
+	content: "\e650";
+}
+.icon-clock-2:before {
+	content: "\e64a";
+}
+.icon-collapse:before {
+	content: "\e64b";
+}
+.icon-dollar-bill:before {
+	content: "\e64c";
+}
+.icon-expand:before {
+	content: "\e64d";
+}
+.icon-filters-burger:before {
+	content: "\e64e";
+}
+.icon-truck:before {
+	content: "\e64f";
+}
+.icon-half-star:before {
+	content: "\e649";
+}
+.icon-phone:before {
+	content: "\e647";
+}
+.icon-up-arrow-thick:before {
+	content: "\e648";
+}
+.icon-chat:before {
+	content: "\e646";
+}
+.icon-envelope:before {
+	content: "\e643";
+}
+.icon-paypal-pal:before {
+	content: "\e644";
+}
+.icon-paypal-pay:before {
+	content: "\e645";
+}
+.icon-return-arrow:before {
+	content: "\e641";
+}
+.icon-plus-circle:before {
+	content: "\e640";
+}
+.icon-listing-tailoring:before {
+	content: "\e63e";
+}
+.icon-bell:before {
+	content: "\e63c";
+}
+.icon-warning:before {
+	content: "\e63d";
+}
+.icon-delivery-guy:before {
+	content: "\e612";
+}
+.icon-delivery-guy-laundry:before {
+	content: "\e63b";
+}
+.icon-discount:before {
+	content: "\e636";
+}
+.icon-info:before {
+	content: "\e637";
+}
+.icon-map-marker:before {
+	content: "\e638";
+}
+.icon-merchant-menu:before {
+	content: "\e639";
+}
+.icon-reviews:before {
+	content: "\e63a";
+}
+.icon-full-arrow-left:before {
+	content: "\e635";
+}
+.icon-clock:before {
+	content: "\e632";
+}
+.icon-dollar-sign:before {
+	content: "\e633";
+}
+.icon-google-plus-g:before {
+	content: "\e634";
+}
+.icon-listing-organic:before {
+	content: "\e600";
+}
+.icon-alcohol:before {
+	content: "\e62c";
+}
+.icon-facebook-f:before {
+	content: "\e630";
+}
+.icon-twitter-bird:before {
+	content: "\e631";
+}
+.icon-checkmark:before {
+	content: "\e62f";
+}
+.icon-listing-beer:before {
+	content: "\e629";
+}
+.icon-listing-dry-cleaning:before {
+	content: "\e62a";
+}
+.icon-listing-laundry:before {
+	content: "\e62b";
+}
+.icon-listing-tobacco:before {
+	content: "\e62d";
+}
+.icon-listing-wine-liquor:before {
+	content: "\e62e";
+}
+.icon-delivery-points:before {
+	content: "\e626";
+}
+.icon-dollar:before {
+	content: "\e627";
+}
+.icon-shopping-bag:before {
+	content: "\e628";
+}
+.icon-tree:before {
+	content: "\e623";
+}
+.icon-breadcrumb-arrow:before {
+	content: "\e621";
+}
+.icon-quick-search-arrow:before {
+	content: "\e622";
+}
+.icon-dlocation:before {
+	content: "\e601";
+}
+.icon-trophy:before {
+	content: "\e61f";
+}
+.icon-mobile:before {
+	content: "\e620";
+}
+.icon-laundry:before {
+	content: "\e61e";
+}
+.icon-delivery-logo:before {
+	content: "\e609";
+}
+.icon-delivery-logo-with-tagline:before {
+	content: "\e60a";
+}
+.icon-trash:before {
+	content: "\e602";
+}
+.icon-star:before {
+	content: "\e603";
+}
+.icon-search:before {
+	content: "\e604";
+}
+.icon-restaurants:before {
+	content: "\e605";
+}
+.icon-plus:before {
+	content: "\e606";
+}
+.icon-pencil:before {
+	content: "\e607";
+}
+.icon-heart:before {
+	content: "\e608";
+}
+.icon-menu:before {
+	content: "\e61d";
+}
+.icon-left-arrow:before {
+	content: "\e60b";
+}
+.icon-arrow:before {
+	content: "\e617";
+}
+.icon-left-arrow-thick:before {
+	content: "\e61c";
+}
+.icon-right-arrow-thick:before {
+	content: "\e63f";
+}
+.icon-down-arrow-thick:before {
+	content: "\e60c";
+}
+.icon-merchant:before {
+	content: "\e60e";
+}
+.icon-groceries:before {
+	content: "\e60f";
+}
+.icon-twitter:before {
+	content: "\e60d";
+}
+.icon-google-plus:before {
+	content: "\e610";
+}
+.icon-facebook:before {
+	content: "\e611";
+}
+.icon-burger-soda:before {
+	content: "\e613";
+}
+.icon-antenna:before {
+	content: "\e614";
+}
+.icon-order-confirmation:before {
+	content: "\e616";
+}
+.icon-account:before {
+	content: "\e615";
+}
+.icon-food:before {
+	content: "\e618";
+}
+.icon-vertical-t:before {
+	content: "\e619";
+}
+.icon-vertical-h:before {
+	content: "\e61a";
+}
+.icon-vertical-b:before {
+	content: "\e61b";
+}
+.icon-full-arrow-right:before {
+	content: "\e624";
+}
+.icon-full-arrow-down:before {
+	content: "\e625";
+}
+.icon-broken-link-icon:before {
+	content: "\e921";
+	color: #fff;
+}
+.icon-link-account:before {
+	content: "\e91f";
+	color: #fff;
+}
+.icon-fb-full .path1:before {
+	content: "\e920";
+	color: rgb(66, 103, 178);
+}
+.icon-fb-full .path2:before {
+	content: "\e922";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}

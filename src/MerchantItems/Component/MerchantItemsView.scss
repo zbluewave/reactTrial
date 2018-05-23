@@ -1,0 +1,147 @@
+.MerchantItemsView {
+    &__active {
+        &__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & > div {
+                margin: 0 6px 0 6px;
+            }
+        }
+    }
+
+    &__table {
+        max-height: 70vh;
+        overflow-y: scroll;
+        color: rgba(0,0,0,.87);
+        text-align: center;
+        border-collapse: separate;
+        font-size: $font-size-main;
+        
+        &__header {
+            display: flex;
+            background-color: #f9fafb;
+            text-align: center;
+            font-size: $font-size-main;
+            color: rgba(0,0,0,.87);
+            border: 1px solid rgba(34,36,38,.15);
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+
+            > div  {
+                flex: auto;
+                padding: 10px;
+                font-weight: bold;
+            }
+
+        }
+    }
+
+    &__section {
+        margin-top: 6px;
+    }
+
+    &__button {
+        flex: auto;
+        height: 40px;
+        margin: 0 8px 4px 8px;
+        border: 1px solid $blue-primary;
+        font-size: $font-size-h3;
+
+        &__container {
+            display: flex;
+            margin: 10px 0;
+        }
+
+        &:hover {
+            background-color: $gray-stroke;
+            transition: background-color .5s;
+            border: 1px solid $gray-stroke;
+            color: black;
+        }
+
+        &__itemType {
+            font-size: $font-size-main;
+            height: 44px;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            border: 1px solid $gray-stroke;
+
+            &__right {
+                @extend .MerchantItemsView__button__itemType;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius:  0px;
+                border-bottom-right-radius: 0px;    
+            }
+
+            &__left {
+                @extend .MerchantItemsView__button__itemType;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius:  0px;
+                border-bottom-left-radius: 0px;  
+            }
+
+            & > div {
+                display: inline-block;
+                margin: 0 6px 0 6px;
+            }
+
+            & > div {
+                display: inline-block;
+                margin: 0 6px 0 6px;
+            }
+
+            &:hover {
+                background-color: $blue-primary;
+                transition: background-color .5s;
+                color: white;
+                transform: none;
+            }
+
+            &:active,
+            &:focus,
+            &:visited {
+                outline: none;
+            }
+        }
+
+        &__spacer {
+            height: 45px;
+        }
+
+        &__submit {
+            @extend .MerchantItemsView__button;
+            background-color: $blue-primary;
+            color: white;
+
+            &:hover {
+                background-color: rgba($blue-primary, 0.9);
+                transition: background-color .5s;
+                color: white;
+                border: 1px solid $blue-primary;
+            }
+
+            &:disabled {
+                background-color: rgba($blue-primary, 0.4);
+                border: 1px solid rgba($blue-primary, 0.4);
+            }
+        }
+    }
+
+    &__quickInfo {
+        padding: 6px;
+        margin: 20px 0 5px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        font-size: $font-size-main !important;
+        color: black;
+        border: 1px solid $gray-stroke;
+        border-radius: 4px;
+    }
+}
